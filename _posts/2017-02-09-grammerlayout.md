@@ -42,6 +42,11 @@ categories:
 <iframe frameborder="20" border="20" marginwidth="10" marginheight="0" width="298" height="80" src="http://openmindclub.qiniudn.com/Yixuan/%E4%B9%B1%E4%B8%96%E4%BF%B1%E7%81%AD.mp3"></iframe>
 {% endraw %}
 
+{% raw %}
+<iframe frameborder="20" border="20" marginwidth="10" marginheight="0" width="298" height="80" src="http://www.guofei.site/public/one.mp3"></iframe>
+{% endraw %}
+
+
 
 音乐会自动播放
 
