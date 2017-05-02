@@ -116,7 +116,7 @@ function factor(opts ,count,current) {
 			}
 		}
 	}
-	
+
 	/*
 	 * create table with head for anchor for example: <h2 id="#Linux基础">Linux基础</h2>
 	 * this method can get a headable anchor
@@ -141,7 +141,7 @@ function factor(opts ,count,current) {
 		if(opts.use_head_anchor == true){
 			anchor = _get_anchor_from_head(header_obj);
 		}
-		
+
     // 设置锚点id
 		$(header_obj).attr('id',anchor);
 
@@ -307,7 +307,7 @@ function factor(opts ,count,current) {
 						console.log('click root table of content');
 					}
 					if($.fn.ztree_toc.defaults.is_highlight_selected_line == true) {
-						$('#' + treeNode.id).css('color' ,'red').fadeOut("slow" ,function() {
+						$('#' + treeNode.id).css('color' ,'black').fadeOut("slow" ,function() {
 						    // Animation complete.
 							$(this).show().css('color','black');
 						});
