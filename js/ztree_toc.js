@@ -309,7 +309,7 @@ function factor(opts ,count,current) {
 					if($.fn.ztree_toc.defaults.is_highlight_selected_line == true) {
 						$('#' + treeNode.id).css('color' ,'green').fadeOut("slow" ,function() {
 						    // Animation complete.
-							$(this).show().css('color','red');
+							$(this).show().css('color','green');
 						});
 					}
 				},
