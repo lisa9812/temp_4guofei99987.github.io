@@ -1,0 +1,37 @@
+# Dependencies
+markdown:            kramdown
+highlighter:         rouge
+
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+
+
+# Setup
+title:               Guofei
+tagline:             '过往不恋，未来不赢，当下不杂'
+description:         '君子不器 上德不德 初心不忘.'
+url:                 http://www.guofei.site
+baseurl:             /
+paginate:            7
+
+# About/contact
+author:
+  name:              Guofei
+  url:               https://www.guofei.com
+  email:             guofei@foxmail.com
+
+# Custom vers
+version:             3.0
+
+# Social Media
+github:				https://github.com/guofei9987
+twitter:			https://twitter.com/Yixuan5402
+
+# Theme Author (Please don't edit this line cause of MIT LICENSE rules)
+theme:
+  creator:			Guofei
+  codename:			Geek-green
+  link:         https://github.com/guofei9987
