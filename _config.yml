@@ -1,5 +1,8 @@
 # Dependencies
 markdown:            kramdown
+kramdown:
+  input:  GFM
+  use_coderay: true
 highlighter:         rouge
 
 
