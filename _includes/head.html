@@ -26,6 +26,7 @@
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.baseurl }}atom.xml">
   <link rel="alternate" type="application/rss+xml" title="Mozilla RSS" href="feed.category.xml">
+    <!-- LateX&Config surport -->
   <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
   tex2jax: {
@@ -53,5 +54,23 @@
   </script>
   <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
   </script>
+  <!-- end -->
+
+<!--TOC-->
+<link rel="stylesheet" href="css/zTreeStyle/zTreeStyle.css" type="text/css">
+<script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="js/jquery.ztree.core-3.5.js"></script>
+<script type="text/javascript" src="js/ztree_toc.js"></script>
+	<SCRIPT type="text/javascript" >
+	<!--
+	$(document).ready(function(){
+		$('#tree').ztree_toc({
+			is_auto_number:true
+		});
+	});
+	//-->
+	</SCRIPT>
+<!--end TOC-->
+
 
   </head>
